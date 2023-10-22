@@ -1,5 +1,5 @@
+// JavaScript for interactivity and animation
 document.addEventListener('DOMContentLoaded', function() {
-    // JavaScript for interactivity and animation
     const button = document.getElementById('button');
     const letter = document.getElementById('letter');
     const backButton = document.getElementById('back-button');
