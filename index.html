@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="app.js"></script>
     <title>Happy Birthday!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- Opening Page -->
-    <div id="confetti-container"></div>
-    <div id="container">
-        <button id="button">Click to Open Birthday Letter</button>
+    <div class="container">
+        <div id="birthdayMessage">
+            <h1>Happy Birthday from me to you!</h1>
+            <button id="openLetter">Open Letter</button>
+        </div>
+        <div id="letter">
+            <p>Your birthday wishes go here.</p>
+        </div>
     </div>
-
-    <!-- Birthday Letter Page -->
-    <div id="letter">
-        <h1>Happy Birthday, [Your Boyfriend's Name]!</h1>
-        <p>Dear [Boyfriend's Name],</p>
-        <p>On this special day, I want to wish you all the happiness, love, and success in the world. You mean everything to me, and I'm grateful to have you in my life.</p>
-        <p>With all my love,</p>
-        <p>[Your Name]</p>
-        <button id="back-button">Go Back</button>
-    </div>
-    
+    <script src="app.js"></script>
 </body>
 </html>
