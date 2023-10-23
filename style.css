@@ -1,15 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #f7e1e1;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -18,14 +20,31 @@ body {
 }
 
 #openLetter {
-    background-color: #4CAF50;
+    background-color: #ff6b6b;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#openLetter:hover {
+    background-color: #e64c4c;
 }
 
 #letter {
     display: none;
+}
+
+.letter-header, .letter-footer {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+}
+
+.letter-content {
+    padding: 20px;
+    line-height: 1.6;
 }
