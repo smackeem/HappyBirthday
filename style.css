@@ -1,19 +1,29 @@
 body {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background-color: #f7e1e1;
+    font-family: 'BioRhyme', serif;
+    background-color: #A7C7E7;
+    
     text-align: center;
     margin: 0;
     padding: 0;
 }
-span {
-    color: blue;
+h1{
+    font-family: 'Nosifer', sans-serif;
+    font-size: 40px;
+    color: #FF2400;
 }
-
+button{
+    font-family: 'BioRhyme', serif;
+}
+span {
+    font-size: 18px;
+    font-style: bold;
+    color: red;
+}
 .container {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff72;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -23,7 +33,7 @@ span {
 }
 
 #openLetter {
-    background-color: #ff6b6b;
+    background-color: #191970;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -34,7 +44,7 @@ span {
 }
 
 #openLetter:hover {
-    background-color: #e64c4c;
+    background-color: #191970;
 }
 
 #letter {
@@ -42,9 +52,10 @@ span {
 }
 
 .letter-header, .letter-footer {
-    background-color: #ff6b6b;
+    background-color: #191970;
+    font-family: 'BioRhyme', serif ;
     color: white;
-    padding: 10px;
+    padding: 6px;
 }
 
 .letter-content {
