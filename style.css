@@ -21,7 +21,7 @@ span {
     color: red;
 }
 .container {
-    max-width: 600px;
+    max-width: 90%;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff72;
@@ -62,4 +62,28 @@ span {
 .letter-content {
     padding: 20px;
     line-height: 1.6;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #openLetter {
+        font-size: 16px;
+    }
+
+    .letter-header, .letter-footer {
+        padding: 5px;
+    }
+
+    .letter-content {
+        padding: 10px;
+    }
 }
