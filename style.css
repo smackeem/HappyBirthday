@@ -1,7 +1,9 @@
 body {
     font-family: 'BioRhyme', serif;
     background-color: #A7C7E7;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
     max-width 600px;
